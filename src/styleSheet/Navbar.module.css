@@ -1,0 +1,48 @@
+.top {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  background-color: #000000;
+  padding: 10px 50px;
+}
+.logo {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.logo span:first-child {
+  color: white;
+}
+
+.logo span:last-child {
+  color: #3b82f6;
+}
+.icons {
+  display: flex;
+  gap: 40px;
+  align-items: last baseline;
+}
+.cartIcon {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.itemCount {
+  color: #ef4444;
+  font-size: 0.85rem;
+  font-weight: 600;
+  position: absolute;
+  top: -6px;
+  right: -10px;
+}
+.storeLink,
+.cartLink {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+.storeLink:hover,
+.cartLink:hover {
+  color: #3B82F6;
+}
