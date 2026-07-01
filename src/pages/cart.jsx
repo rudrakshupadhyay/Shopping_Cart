@@ -55,7 +55,7 @@ function Cart() {
       })}
     </ul>
   ) : (
-    <p>The cart is empty</p>
+    <p className={CartStyle.emptyCart}>Nothing in the Cart....</p>
   );
 }
 

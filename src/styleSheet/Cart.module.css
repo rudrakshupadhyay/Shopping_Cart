@@ -93,3 +93,10 @@
   background-color: #b71c1c; /* Even darker red on click */
   transform: scale(0.9);
 }
+.emptyCart{
+  font-family: "Geist", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 500;
+}
