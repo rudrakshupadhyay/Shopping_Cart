@@ -1,8 +1,6 @@
 import { useState } from "react";
-
+import PropTypes from "prop-types";
 function CartItem({itemsList}) {
-
-
   return (
     <>
       {itemsList.length === 0 ? (
@@ -17,5 +15,7 @@ function CartItem({itemsList}) {
     </>
   );
 }
-
+CartItem.propTypes = {
+  itemsList: PropTypes.array.isRequired,
+};
 export default CartItem;
